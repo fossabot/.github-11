@@ -30,39 +30,35 @@ We have built an innovative ultra High-performance Enterprise grade Block-mode H
 [![Project Structure](https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_project-structure_april2024.png)](https://github.com/openebs/community/)
 
 ## Deployable Data-Engines
-OpenEBS has maintained a steady pace of development & evolution in order to keep in alignment with K8s advancment overall and with the rapid changing pace of technologies, hardware and software innovations in the data stroage industry. The proejct is divided into 2 main deployable Editions :<BR>
-| ID  | Edition name  | Data-Engine | Release        |
-|-----|---------------|-------------|----------------|
-|  1  | ```Legacy```        | [cStor](https://github.com/openebs/cstor-operators)       | [![Releases](https://img.shields.io/github/v/release/openebs/cstor-csi.svg?include_prereleases&style=flat-square)](https://github.com/openebs/cstor-csi/releases)   |
-|     |               | [Jiva](https://github.com/openebs/jiva)  | [![Releases](https://img.shields.io/github/v/release/openebs/jiva.svg?include_prereleases&style=flat-square)](https://github.com/openebs/jiva/releases)   |
-|     |               | [NFS](https://github.com/openebs/dynamic-nfs-provisioner)  |    |
-|  2  | ```Standard```     | [Mayastor](https://github.com/openebs/mayastor)     | [![Releases](https://img.shields.io/github/release/openebs/Mayastor/all.svg?style=flat-square)](https://github.com/openebs/Mayastor/releases)   |
+OpenEBS is a **K8s Software Defined Storage platform** that aspires to constantly be aligned with the overall evolution, concepts, technologies and principles of Kubernetes. As a storage platform, we also have to keep pace with changing state of the Storage Industry. This is a complex ```Matrix product problem``` to solve. How we do that is to develop a number of differnt **```Storage Engines```** that solve differnt use-cases in optomized & efficent ways. - Rather than build 1 large bloated, inefficent monolithic application stack. <BR>
+<br>
+
+**Our project currently has 2 main Editions**:<BR>
+
+> | 1. **```OSS STANDARD```** |
+> | - |
+
+> | 2. **```Legacy```** |
+> | - |
+
 <BR>
 
-## ```LEGACY Edition```
-> [!NOTE]
-> ```
-> LEGACY consists of Data-Engines that we experimented with early on. These Data-Engines have a number of opensoruce
-> techologies embeded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped
-> us learn, iterate and develop our core storage K8s strategy, as well as decern how users want & need to interact with
-> K8s storage services. LEGACY also helped to reveal key areas within K8s that are lacking in storage/datastore services,
-> what areas of K8s we could optimize; and how we can provide the best value into the various K8s storage layers.
+> [!IMPORTANT]
+> ## ```OSS Standard Edition```
 
-There are multiple Data-Engines within LEGACY:<BR>
-| ID  | Data-Eegines      | Embeded tech stack   | Status                           |
-|-----|-------------------|----------------------|----------------------------------|
-|  1  |  Jiva             | iSCSI                | Has been ```deprecated```. Will be migrating out of org soon  |
-|  2  |  cStor            | Open ZFS             | Has been ```deprecated```. Will be migrating out of org soon |
-|  3  |  NFS Provisioner  | NFS userspace server | Has been ```deprecated```. Will be migrating out of org soon |
-|  4  |  Device LocalPV     | Node Local storage   | Has been ```deprecated```. Will be migrating out of org soon |
-|  5  |  LocalPV Device     | Node Local storage   | Has been ```deprecated```. Will be migrating out of org soon |
-|  6  |  NDM              | Node Local storage   | Has been ```deprecated```. Will be migrating out of org soon |
-|  7  |  Many other tools   | Node Local storage   | Has been ```deprecated```. Will be migrating out of org soon |
+There are 2 Tytpe of Storage Services provided within the **OSS STANDARD**:
+| ID  | Storage Engine       | Type of data services                                | Status                                                     |
+|-----|--------------------|--------------------------------------------------------|------------------------------------------------------------|
+|  1  |  ```Replicated``` <BR>[Mayastor](https://github.com/openebs/mayastor)      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
+|     | &nbsp;             |                                                        |                                                            |
+|  2  |  ```Local``` <BR>**Local PV services**       | Non-replicated node local data volumes                 | (Local-PV has multiple variants. See below)                |
+|     |  [Local PV HostPath](https://github.com/openebs/dynamic-localpv-provisioner) | for integration with local node hostpath (e.g. /mnt/fs1)    | Stable, deployable in PROD, undergoing integration         |
+|     |  [Local PV ZFS](https://github.com/openebs/zfs-localpv)      | for integration with local ZFS storage deployments          | Stable, deployable in PROD, undergoing integration         |
+|     |  [Local PV LVM](https://github.com/openebs/lvm-localpv)      | for integration with local LVM2 storage deployments          | Stable, deployable in PROD, undergoing integration         |
+|     |  [Local PV Raw-device-File](https://github.com/openebs/rawfile-localpv)    | for integration with Loop mounted Raw device-file filesystem | Stable, deployable in PROD, undergoing integration         |
 <BR>
 
-
-## ```STANDARD Edition```
-**STANDARD** is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to faciliate modern K8s datastore archiectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
+**STANDARD** (Open Source Software Standard)is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to faciliate modern K8s datastore archiectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
 <BR>	
 
  
@@ -82,18 +78,34 @@ STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra
 </details>
 <BR>
 
+---
 
-There are 2 Data-Engines within the [**STANDARD**](https://github.com/openebs/mayastor) Edition:
-| ID  | Data-Eegines       | Type of data services                                  | Status                                                     |
-|-----|--------------------|--------------------------------------------------------|------------------------------------------------------------|
-|  1  |  ```Replciated``` <BR>[Mayastor](https://github.com/openebs/mayastor)      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
-|     | &nbsp;             |                                                        |                                                            |
-|  2  |  ```Local``` <BR>**LocalPV-xxx**       | Non-replicated node local data volumes                 | (Local-PV has multiple variants. See below)                |
-|     |  [LocalPV-HostPath](https://github.com/openebs/dynamic-localpv-provisioner) | for integration with local node hostpath (e.g. /mnt/fs1)    | Stable, deployable in PROD, undergoing integration         |
-|     |  [LocalPV-ZFS](https://github.com/openebs/zfs-localpv)      | for integration with local ZFS storage deployments          | Stable, deployable in PROD, undergoing integration         |
-|     |  [LocalPV-LVM](https://github.com/openebs/lvm-localpv)      | for integration with local LVM2 storage deployments          | Stable, deployable in PROD, undergoing integration         |
-|     |  [LocalPV-Raw-device-File](https://github.com/openebs/rawfile-localpv)    | for integration with Loop mounted Raw device-file filesystem | Stable, deployable in PROD, undergoing integration         |
+> [!WARNING]
+> ### ```LEGACY Edition```
+```Erlang
+LEGACY consists of Data-Engines that we experimented with early on. These Data-Engines have a number of opensoruce
+techologies embeded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped
+us learn, iterate and develop our core storage K8s strategy, as well as decern how users want & need to interact with
+K8s storage services. LEGACY also helped to reveal key areas within K8s that are lacking in storage/datastore services,
+what areas of K8s we could optimize; and how we can provide the best value into the various K8s storage layers.
+```
+
 <BR>
+
+There are multiple Data-Engines within LEGACY:<BR>
+| ID  | Data-Eegines      | Embeded tech stack   | Status        | Action date  |
+|:---:|:---               | :----                |:---           | :---         |
+|  |  | &nbsp;  |  |  |
+|  1  |  Jiva             | iSCSI                | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Aug, 2024 |
+|  2  |  cStor            | Open ZFS             | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Aug, 2024 |
+|  3  |  NFS Provisioner  | NFS userspace server | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Aug, 2024 |
+|  4  |  Device LocalPV     | Node Local storage   | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Aug, 2024 |
+|  5  |  LocalPV Device     | Node Local storage   | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Aug, 2024 |
+|  6  |  NDM              | Node Local storage   | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Aug, 2024 |
+|  7  |  Many other tools   | Node Local storage   | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Aug, 2024 |
+<BR>
+
+---
 
 ## :earth_americas: ROADMAP
 Our [2024 Roadmap is here](https://github.com/openebs/openebs/blob/main/ROADMAP.md) It defines a rich set of new featrues that are planned for 2024.<br>
