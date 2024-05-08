@@ -1,4 +1,4 @@
-# Welcome to openEBS
+# Welcome to OpenEBS
 [![OpenEBS Social Banner](https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_main_banner_HERO_1.png)](https://www.openebs.io/)
 
 ## [openebs.io](https://www.openebs.io/)
@@ -9,7 +9,7 @@ Our project team was an early pioneering inventor of K8s **Container Native Stor
 We have built an innovative ultra High-performance Enterprise grade Block-mode Hyper-converged Data Storage Fabric that augments the core storage services of K8s with Stateful Persistence, Enterprise Data mgmt, SSD/NVMe optimized I/O services, Replicated Data volumes, Thin Provisioning, Snapshot and Clones; and many other critical data storage services that don't come in K8s out-of-the-box.<BR>
 <BR>
 
-> **OpenEBS is very popular** : Live OpenEBS systems actively report back product metrics every day, to our Global Anaytics metrics engine (unless disabled by the user).
+> **OpenEBS is very popular** : Live OpenEBS systems actively report back product metrics every day, to our Global Analytics metrics engine (unless disabled by the user).
 > Here are our key project popularity metrics as of: 01 Feb 2024 <BR>
 >
 > :rocket: &nbsp; OpenEBS is the #1 deployed Storage Platform for Kubernetes <BR>
@@ -30,7 +30,7 @@ We have built an innovative ultra High-performance Enterprise grade Block-mode H
 [![Project Structure](https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_project-structure_april2024.png)](https://github.com/openebs/community/)
 
 ## Deployable Data-Engines
-OpenEBS is a **K8s Software Defined Storage platform** that aspires to constantly be aligned with the overall evolution, concepts, technologies and principles of Kubernetes. As a storage platform, we also have to keep pace with changing state of the Storage Industry. This is a complex ```Matrix product problem``` to solve. How we do that is to develop a number of differnt **```Storage Engines```** that solve differnt use-cases in optomized & efficent ways. - Rather than build 1 large bloated, inefficent monolithic application stack. <BR>
+OpenEBS is a **K8s Software Defined Storage platform** that aspires to constantly be aligned with the overall evolution, concepts, technologies and principles of Kubernetes. As a storage platform, we also have to keep pace with changing state of the Storage Industry. This is a complex ```Matrix product problem``` to solve. How we do that is to develop a number of different **```Storage Engines```** that solve different use-cases in optimized & efficient ways - rather than build 1 large bloated, inefficient monolithic application stack. <BR>
 <br>
 
 **Our project currently has 2 main Editions**:<BR>
@@ -46,7 +46,7 @@ OpenEBS is a **K8s Software Defined Storage platform** that aspires to constantl
 > [!IMPORTANT]
 > ## ```OSS Standard Edition```
 
-There are 2 Tytpe of Storage Services provided within the **OSS STANDARD**:
+There are 2 Types of Storage Services provided within the **OSS STANDARD**:
 | ID  | Storage Engine       | Type of data services                                | Status                                                     |
 |-----|--------------------|--------------------------------------------------------|------------------------------------------------------------|
 |  1  |  ```Replicated``` <BR>[Mayastor](https://github.com/openebs/mayastor)      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
@@ -55,10 +55,10 @@ There are 2 Tytpe of Storage Services provided within the **OSS STANDARD**:
 |     |  [Local PV HostPath](https://github.com/openebs/dynamic-localpv-provisioner) | for integration with local node hostpath (e.g. /mnt/fs1)    | Stable, deployable in PROD, undergoing integration         |
 |     |  [Local PV ZFS](https://github.com/openebs/zfs-localpv)      | for integration with local ZFS storage deployments          | Stable, deployable in PROD, undergoing integration         |
 |     |  [Local PV LVM](https://github.com/openebs/lvm-localpv)      | for integration with local LVM2 storage deployments          | Stable, deployable in PROD, undergoing integration         |
-|     |  [Local PV Raw-device-File](https://github.com/openebs/rawfile-localpv)    | for integration with Loop mounted Raw device-file filesystem | Stable, deployable in PROD, undergoing integration         |
+|     |  [Local PV Rawfile](https://github.com/openebs/rawfile-localpv)    | for integration with Loop mounted Raw device-file filesystem | Stable, deployable in PROD, undergoing integration         |
 <BR>
 
-**STANDARD** (Open Source Software Standard)is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to faciliate modern K8s datastore archiectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
+**STANDARD** (Open Source Software Standard) is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to facilitate modern K8s datastore architectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
 <BR>	
 
  
@@ -67,12 +67,12 @@ STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra
 >
 > :ballot_box_with_check: &nbsp; It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL) <BR>
 > :ballot_box_with_check: &nbsp; The hyper modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible) <BR>
-> :ballot_box_with_check: &nbsp; Native abilties for RDMA and Zero-Copy I/O <BR>
+> :ballot_box_with_check: &nbsp; Native abilities for RDMA and Zero-Copy I/O <BR>
 > :ballot_box_with_check: &nbsp; NVMe-oF TCP Block storage Hyper-converged data fabric <BR>
 > :ballot_box_with_check: &nbsp; Block layer volume replication <BR>
 > :ballot_box_with_check: &nbsp; Logical volumes and Diskpool based data managment <BR>
-> :ballot_box_with_check: &nbsp; a Native high peformance [Blobstore](https://spdk.io/doc/blob.html) <BR>
-> :ballot_box_with_check: &nbsp; Native Block layer Thin provisoning <BR>
+> :ballot_box_with_check: &nbsp; a Native high performance [Blobstore](https://spdk.io/doc/blob.html) <BR>
+> :ballot_box_with_check: &nbsp; Native Block layer Thin provisioning <BR>
 > :ballot_box_with_check: &nbsp; Native Block layer Snapshots and Clones <BR>
 
 </details>
@@ -83,9 +83,9 @@ STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra
 > [!WARNING]
 > ### ```LEGACY Edition```
 ```Erlang
-LEGACY consists of Data-Engines that we experimented with early on. These Data-Engines have a number of opensoruce
-techologies embeded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped
-us learn, iterate and develop our core storage K8s strategy, as well as decern how users want & need to interact with
+LEGACY consists of Data-Engines that we experimented with early on. These Data-Engines have a number of open-source
+technologies embedded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped
+us learn, iterate and develop our core storage K8s strategy, as well as discern how users want & need to interact with
 K8s storage services. LEGACY also helped to reveal key areas within K8s that are lacking in storage/datastore services,
 what areas of K8s we could optimize; and how we can provide the best value into the various K8s storage layers.
 ```
@@ -93,7 +93,7 @@ what areas of K8s we could optimize; and how we can provide the best value into 
 <BR>
 
 There are multiple Data-Engines within LEGACY:<BR>
-| ID  | Data-Eegines      | Embeded tech stack   | Status        | Action date  |
+| ID  | Data-Engines      | Embedded tech stack   | Status        | Action date  |
 |:---:|:---               | :----                |:---           | :---         |
 |  |  | &nbsp;  |  |  |
 |  1  |  Jiva             | iSCSI                | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Aug, 2024 |
@@ -108,12 +108,12 @@ There are multiple Data-Engines within LEGACY:<BR>
 ---
 
 ## :earth_americas: ROADMAP
-Our [2024 Roadmap is here](https://github.com/openebs/openebs/blob/main/ROADMAP.md) It defines a rich set of new featrues that are planned for 2024.<br>
-Please review this roadmp and feel free to pass back any feedback on it, as well as recommend and suggest new ideas. We welcome all your feedback.
+Our [2024 Roadmap is here](https://github.com/openebs/openebs/blob/main/ROADMAP.md) It defines a rich set of new features that are planned for 2024.<br>
+Please review this roadmap and feel free to pass back any feedback on it, as well as recommend and suggest new ideas. We welcome all of your feedback.
 <br>
 <br>
 
 ## :star: GitHub Star Chart
-OpenEBS is the most successful Stateful Persistent Contianer Native Storage platform in the CNCF landscape. It has allways held the #1 position and continues to as of today.
+OpenEBS is the most successful Stateful Persistent Container Native Storage platform in the CNCF landscape. It has always held the #1 position and continues to as of today.
 
 [![XXXXXXXX](https://github.com/openebs/website/blob/main/website/public/images/png/github_star-history-2024_Feb_1.png)](https://www.openebs.io/)
