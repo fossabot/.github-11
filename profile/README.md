@@ -2,9 +2,9 @@
 [![OpenEBS Social Banner](https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_main_banner_HERO_1.png)](https://www.openebs.io/)
 
 ## [openebs.io](https://www.openebs.io/)
-OpenEBS is a opensource Stateful Persistent block-mode Data Storage platform for Kubernetes. We are CNCF member project. We are a large global community of K8s Data storage users.<BR>
+OpenEBS is a open-source Stateful Persistent block-mode Data Storage platform for Kubernetes. We are CNCF member project. We are a large global community of K8s Data storage users.<BR>
 <BR>
-Our project team was an early pioneering inventor of K8s **Container Native Storage** services. We concieved the vision of a Stateful Persistent data platform for K8s that is tightly integrated and natively embeded into the core of K8s.<BR>
+Our project team was an early pioneering inventor of K8s **Container Native Storage** services. We conceived the vision of a Stateful Persistent data platform for K8s that is tightly integrated and natively embeded into the core of K8s.<BR>
 <BR>
 We have built an innovative ultra High-performance Enterprise grade Block-mode Hyper-converged Data Storage Fabric that augments the core storage services of K8s with Stateful Persistence, Enterprise Data mgmt, SSD/NVMe optimized I/O services, Replicated Data volumes, Thin Provisioning, Snapshot and Clones; and many other critical data storage services that don't come in K8s out-of-the-box.<BR>
 <BR>
@@ -65,7 +65,7 @@ There are 2 Types of Storage Services provided within the **OSS STANDARD**:
 STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra modern cutting-edge high performance storage technologies at its core...</summary>
 
 >
-> :ballot_box_with_check: &nbsp; It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL) <BR>
+> :ballot_box_with_check: &nbsp; It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an open-source NVMe project initiated by INTEL) <BR>
 > :ballot_box_with_check: &nbsp; The hyper modern [IO_Uring](https://github.com/axboe/liburing) Linux Kernel Async polling-mode I/O Interface - (fastest kernel I/O mode possible) <BR>
 > :ballot_box_with_check: &nbsp; Native abilities for RDMA and Zero-Copy I/O <BR>
 > :ballot_box_with_check: &nbsp; NVMe-oF TCP Block storage Hyper-converged data fabric <BR>
