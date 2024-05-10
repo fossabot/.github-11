@@ -9,15 +9,16 @@ Our project team was an early pioneering inventor of K8s **Container Native Stor
 We have built an innovative ultra High-performance Enterprise grade Block-mode Hyper-converged Data Storage Fabric that augments the core storage services of K8s with Stateful Persistence, Enterprise Data mgmt, SSD/NVMe optimized I/O services, Replicated Data volumes, Thin Provisioning, Snapshot and Clones; and many other critical data storage services that don't come in K8s out-of-the-box.<BR>
 <BR>
 
-> **OpenEBS is very popular** : Live OpenEBS systems actively report back product metrics every day, to our Global Analytics metrics engine (unless disabled by the user).
-> Here are our key project popularity metrics as of: 01 Feb 2024 <BR>
+> **OpenEBS is very popular :** <BR>
+> Live OpenEBS systems actively report back product telemetry each day, to our Global Analytics system (unless disabled by the user).<BR>
+> Below are our project popularity & pentration metrics as of: <kbd>01 May 2024</kbd> <BR>
 >
-> :rocket: &nbsp; OpenEBS is the #1 deployed Storage Platform for Kubernetes <BR>
+> :rocket: &nbsp; OpenEBS is the **#1 deployed** Storage ```Platform``` for Kubernetes <BR>
 > :star: &nbsp; We are the [#1 GitHub Star ranked](https://github.com/openebs/website/blob/main/website/public/images/png/github_star-history-2024_Feb_1.png) K8s Data Storage platform <BR>
-> :floppy_disk: &nbsp; We have +49 Million Volumes deployed globally <BR>
-> :tv: &nbsp; We have +8 Million Global installations <BR>
-> :zap: &nbsp; 1 Million OpenEBS K8s Containers are spawned per week <BR>
-> :sunglasses: &nbsp; 1.1 Million global users <BR>
+> :floppy_disk: &nbsp; We have **+49 Million** <kbd>Volumes</kbd> deployed globally <BR>
+> :tv: &nbsp; We have **+9 Million** Global <kbd>installations</kbd> <BR>
+> :zap: &nbsp; **1 Million** OpenEBS K8s Containers are ```spawned per week``` <BR>
+> :sunglasses: &nbsp; **1.7 Million** ```global users``` <BR>
 
 | [![coders](https://github.com/openebs/website/blob/main/website/public/images/png/code_icon_200x100.png "Write more awesome code")](https://github.com/openebs/website/blob/main/website/public/images/png/website/public/images/png/code_for_success_mantra_small.png)  | Building a K8s Enterprise Data Storage platform is complex, and areas of the Data & I/O stack could be considerd 'Storage Rocket science'. Our global team comes from many areas of the data storage industry. Companies like... [Microsoft Azure](https://azure.microsoft.com/en-us/), [VMware](https://www.vmware.com/), [DELL/EMC](https://www.dell.com/en-us/shop/scc/sc/storage-products), [Brocade/Broadcom](https://www.broadcom.com/products/fibre-channel-networking), [Hitachi Vantara](https://www.hitachivantara.com/en-us/products/storage-platforms.html), [INTEL](https://www.intel.com/content/www/us/en/products/details/memory-storage.html), [Nvidia/Mellanox](https://developer.nvidia.com/gpudirect-storage), [IBM](https://www.ibm.com/storage), [RedHat](https://www.redhat.com/en/technologies/cloud-computing/openshift) and [DataCore](https://datacore.com).  |
 | :---  | :--- |
@@ -44,21 +45,22 @@ OpenEBS is a **K8s Software Defined Storage platform** that aspires to constantl
 <BR>
 
 > [!IMPORTANT]
-> ## ```OSS Standard Edition```
+> ## ```OSS : Standard Edition```
 
 There are 2 Types of Storage Services provided within the **OSS STANDARD**:
-| ID  | Storage Engine       | Type of data services                                | Status                                                     |
-|-----|--------------------|--------------------------------------------------------|------------------------------------------------------------|
-|  1  |  ```Replicated``` <BR>[Mayastor](https://github.com/openebs/mayastor)      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
-|     | &nbsp;             |                                                        |                                                            |
-|  2  |  ```Local``` <BR>**Local PV services**       | Non-replicated node local data volumes                 | (Local-PV has multiple variants. See below)                |
-|     |  [Local PV HostPath](https://github.com/openebs/dynamic-localpv-provisioner) | for integration with local node hostpath (e.g. /mnt/fs1)    | Stable, deployable in PROD, undergoing integration         |
-|     |  [Local PV ZFS](https://github.com/openebs/zfs-localpv)      | for integration with local ZFS storage deployments          | Stable, deployable in PROD, undergoing integration         |
-|     |  [Local PV LVM](https://github.com/openebs/lvm-localpv)      | for integration with local LVM2 storage deployments          | Stable, deployable in PROD, undergoing integration         |
-|     |  [Local PV Rawfile](https://github.com/openebs/rawfile-localpv)    | for integration with Loop mounted Raw device-file filesystem | Stable, deployable in PROD, undergoing integration         |
+| Type | Storage Engine   | Type of data services                                                     | Status                      |  Latest  |
+| :--- | :---             | :---                                                                      | :---                        | :---     |   
+| ```Replicated_PV``` |         | Replicated data volumes (in a Cluster wide vSAN block mode fabric)  |                             |          |
+| [<img src="https://github.com/openebs/community/blob/develop/images/replicated-pv_mayastor_183x183.png" alt="Replicated PV Mayastor" align="left" width="83px"/>](https://github.com/openebs/mayastor) | [Mayastor](https://github.com/openebs/mayastor) | for High Availability deploymemnts distributing & replicating volumes across the cluster | Stable, deployable in PROD |  v4.0.1 |
+|     | &nbsp;             |                                                        |                                                            |          |
+| ```Local PV``` |         | Non-replicated node local data volumes    | (Local-PV has multiple variants. See below)                | v4.0.1   |
+|  [<img src="https://github.com/openebs/community/blob/develop/images/local-pv_hostpath_183x183.png" alt="Local PV Hostpath" align="left" width="83px"/>](https://github.com/openebs/dynamic-localpv-provisioner) |  [Local PV HostPath](https://github.com/openebs/dynamic-localpv-provisioner) | for integration with local node hostpath (e.g. /mnt/fs1)    | Stable, deployable in PROD    | v4.0.1   |
+| [<img src="https://github.com/openebs/community/blob/develop/images/local-pv_zfs_183x183.png" alt="Local PV ZFS" align="left" width="83px"/>](https://github.com/openebs/zfs-localpv) |  [Local PV ZFS](https://github.com/openebs/zfs-localpv)      | for integration with local ZFS storage deployments          | Stable, deployable in PROD                    | v4.0.1   |
+| [<img src="https://github.com/openebs/community/blob/develop/images/local-pv_lvm_183x183.png" alt="Local PV LVM2" align="left" width="83px"/>](https://github.com/openebs/lvm-localpv) |  [Local PV LVM](https://github.com/openebs/lvm-localpv)      | for integration with local LVM2 storage deployments          | Stable, deployable in PROD                   | v4.0.1   |
+| [<img src="https://github.com/openebs/community/blob/develop/images/local-pv_rawfile_183x163.png" alt="Local PV Rawfile" align="left" width="83px"/>](https://github.com/openebs/rawfile-localpv) |  [Local PV Rawfile](https://github.com/openebs/rawfile-localpv)    | for integration with Loop mounted Raw device-file filesystem | Stable, deployable in PROD, undergoing evaluation & integration   | v0.70   |
 <BR>
 
-**STANDARD** (Open Source Software Standard) is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to facilitate modern K8s datastore architectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
+**STANDARD** (Open Source Standard) is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to facilitate modern K8s datastore architectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
 <BR>	
 
  
