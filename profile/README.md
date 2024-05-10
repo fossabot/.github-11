@@ -36,10 +36,10 @@ OpenEBS is a **K8s Software Defined Storage platform** that aspires to constantl
 
 **Our project currently has 2 main Editions**:<BR>
 
-> | 1. **```OSS STANDARD```** |
+> | 1. **<KBD>OSS STANDARD></KBD>** |
 > | - |
 
-> | 2. **```Legacy```** |
+> | 2. **<KBD>Legacy</KBD>** |
 > | - |
 
 <BR>
@@ -98,13 +98,13 @@ There are multiple Data-Engines within LEGACY:<BR>
 | ID  | Data-Engines      | Embedded tech stack   | Status        | Action date  |
 |:---:|:---               | :----                |:---           | :---         |
 |  |  | &nbsp;  |  |  |
-|  1  |  Jiva             | iSCSI                | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Aug, 2024 |
-|  2  |  cStor            | Open ZFS             | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Aug, 2024 |
-|  3  |  NFS Provisioner  | NFS userspace server | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Aug, 2024 |
-|  4  |  Device LocalPV     | Node Local storage   | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Aug, 2024 |
-|  5  |  LocalPV Device     | Node Local storage   | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Aug, 2024 |
-|  6  |  NDM              | Node Local storage   | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Aug, 2024 |
-|  7  |  Many other tools   | Node Local storage   | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Aug, 2024 |
+|  1  |  Jiva             | iSCSI                | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Apr, 2024 |
+|  2  |  cStor            | Open ZFS             | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Apr, 2024 |
+|  3  |  NFS Provisioner  | NFS userspace server | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Apr, 2024 |
+|  4  |  Device LocalPV     | Node Local storage   | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Apr, 2024 |
+|  5  |  LocalPV Device     | Node Local storage   | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Apr, 2024 |
+|  6  |  NDM              | Node Local storage   | ```deprecated``` & has been ```Migrated``` to [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Apr, 2024 |
+|  7  |  +43 other repos & projects<BR>(Total Repos migrated: 49)| 66% of Project's Techncial Debt has been reduced  | Please see the [OpenEBS Archive org](https://github.com/openebs-archive/) | 29 Apr, 2024 |
 <BR>
 
 ---
