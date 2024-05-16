@@ -17,9 +17,9 @@ We built an innovative High-performance Enterprise grade Block-mode Hyper-conver
 > :rocket: &nbsp; OpenEBS is the **#1 deployed** Storage ```Platform``` for Kubernetes <BR>
 > :star: &nbsp; We are the [#1 GitHub Star ranked](https://github.com/openebs/website/blob/main/website/public/images/png/github_star-history-2024_Feb_1.png) K8s Data Storage platform <BR>
 > :floppy_disk: &nbsp; We have **+49 Million** <kbd>Volumes</kbd> deployed globally <BR>
-> :tv: &nbsp; We have **+9 Million** Global <kbd>installations</kbd> <BR>
+> :tv: &nbsp; We have **+9 Million** Global Live <kbd>Nodes</kbd> <BR>
 > :zap: &nbsp; **1 Million** OpenEBS K8s Containers are ```spawned per week``` <BR>
-> :sunglasses: &nbsp; **1.7 Million** ```global users``` <BR>
+> :sunglasses: &nbsp; **1.7 Million** ```User Installations ``` <BR>
 
 | [<img src="https://github.com/openebs/community/blob/develop/images/code_for_success_mantra_small.png" align="center" width="450px"/>](https://github.com/openebs/community) | Building a K8s Enterprise Data Storage platform is complex, and areas of the Data & I/O stack could be considerd 'Storage Rocket science'. Our global team comes from many areas of the data storage industry. Companies like... [Microsoft Azure](https://azure.microsoft.com/en-us/), [VMware](https://www.vmware.com/), [DELL/EMC](https://www.dell.com/en-us/shop/scc/sc/storage-products), [Brocade/Broadcom](https://www.broadcom.com/products/fibre-channel-networking), [Hitachi Vantara](https://www.hitachivantara.com/en-us/products/storage-platforms.html), [INTEL](https://www.intel.com/content/www/us/en/products/details/memory-storage.html), [Nvidia/Mellanox](https://developer.nvidia.com/gpudirect-storage), [IBM](https://www.ibm.com/storage), [RedHat](https://www.redhat.com/en/technologies/cloud-computing/openshift) and [DataCore](https://datacore.com).  |
 | :---  | :--- |
