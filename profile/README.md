@@ -1,6 +1,6 @@
 # Welcome to OpenEBS
 <!--- [![OpenEBS Social Banner](https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_main_banner_HERO_1.png)](https://www.openebs.io/) -->
-[![OpenEBS Social Banner](https://github.com/openebs/community/blob/develop/images/forest-road-game-background-pixel-art.png)](https://www.openebs.io/)
+[![OpenEBS Social Banner](https://github.com/openebs/community/blob/develop/images/forest-road-game-pixel-art_HERO_banner.png)](https://www.openebs.io/)
 
 ## [openebs.io](https://www.openebs.io/)
 OpenEBS is a Persistent block-mode Data Storage platform with an native vSAN fabric; for Kubernetes. We are CNCF member project. We are the largest global community of K8s storage users.<BR>
