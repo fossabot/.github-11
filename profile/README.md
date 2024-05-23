@@ -3,7 +3,7 @@
 [![OpenEBS Social Banner](https://github.com/openebs/community/blob/develop/images/forest-road-game-pixel-art_HERO_banner.png)](https://www.openebs.io/)
 
 ## [openebs.io](https://www.openebs.io/)
-OpenEBS is a Persistent block-mode Data Storage platform with an native vSAN fabric; for Kubernetes. We are CNCF member project. We are the largest global community of K8s storage users.<BR>
+OpenEBS is a Stateful Persistent block-mode Data Storage platform with an native vSAN fabric; for Kubernetes. We are CNCF member project. We are the largest global community of K8s storage users.<BR>
 <BR>
 Our project team was an early pioneering inventor of K8s **Container Native Storage** services (we invented the term). We conceived the vision of a Stateful Persistent data platform for K8s that is tightly integrated and natively embeded into the core of K8s.<BR>
 <BR>
@@ -26,7 +26,7 @@ We built an innovative High-performance Enterprise grade Block-mode Hyper-conver
 <BR>
 
 > [!IMPORTANT]
-> We are grateful for the above innovative Data Storage companies and their amazing engineering contributors. Our orignal founding team continues to guide the project as custodial Maintainers. Major sponsorship is provided by [DataCore](https://datacore.com), who donates a large team of dedicated  Product Dev/Engineers, Product Mgmt and operational rescources. (Our founding team was acquired by DataCore, Inc). OpenEBS has 100's of amazing individuals, contributors and storage engineers who provide brainstorming ideas, feedback, code reviews and high-quality code to the project. - All who are passionate about storage and Data are welcome here.
+> Our orignal founding team guides the project as Maintainers. Major sponsorship is provided by [DataCore](https://datacore.com), who donates a large team of dedicated Product Dev/Engineers, Product Mgmt and operational rescources. OpenEBS has 100's of amazing contributors and storage engineers who provide ideas, feedback, and high-quality code to the project. - Everyone is welcome.
 
 ## Project structure
 [![Project Structure](https://github.com/openebs/community/blob/develop/images/island-beach_pixel-art_STORAGE-ENGINES_banner.png)](https://github.com/openebs/community/)
