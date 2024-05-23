@@ -29,7 +29,7 @@ We built an innovative High-performance Enterprise grade Block-mode Hyper-conver
 > We are grateful for the above innovative Data Storage companies and their amazing engineering contributors. Our orignal founding team continues to guide the project as custodial Maintainers. Major sponsorship is provided by [DataCore](https://datacore.com), who donates a large team of dedicated  Product Dev/Engineers, Product Mgmt and operational rescources. (Our founding team was acquired by DataCore, Inc). OpenEBS has 100's of amazing individuals, contributors and storage engineers who provide brainstorming ideas, feedback, code reviews and high-quality code to the project. - All who are passionate about storage and Data are welcome here.
 
 ## Project structure
-[![Project Structure](https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_project-structure_april2024.png)](https://github.com/openebs/community/)
+[![Project Structure](https://github.com/openebs/community/blob/develop/images/island-beach_pixel-art_STORAGE-ENGINES_banner.png)](https://github.com/openebs/community/)
 
 ## **Our project currently has 2 main Editions**:<BR>
 
