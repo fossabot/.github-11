@@ -33,10 +33,10 @@ We built an innovative High-performance Enterprise grade Block-mode Hyper-conver
 
 ## **Our project currently has 2 main Editions**:<BR>
 
-> | 1. **<KBD>OSS STANDARD></KBD>** |
+> | 1. **<KBD>OSS STANDARD </KBD>** :heavy_check_mark: > ```Ready Player 1``` |
 > | - |
 
-> | 2. **<KBD>Legacy</KBD>** |
+> | 2. **<KBD>Legacy</KBD>** :warning: ```Game Over``` |
 > | - |
 
 ---
