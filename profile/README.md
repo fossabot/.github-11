@@ -25,26 +25,21 @@ We built an innovative High-performance Enterprise grade Block-mode Hyper-conver
 | :---  | :--- |
 <BR>
 
-> [!IMPORTANT]
-> Our orignal founding team guides the project as Maintainers. Major sponsorship is provided by [DataCore](https://datacore.com), who donates a large team of dedicated Product Dev/Engineers, Product Mgmt and operational rescources. OpenEBS has 100's of amazing contributors and storage engineers who provide ideas, feedback, and high-quality code to the project. - Everyone is welcome.
-
-## Project structure
 [![Project Structure](https://github.com/openebs/community/blob/develop/images/island-beach_pixel-art_STORAGE-ENGINES_banner.png)](https://github.com/openebs/community/)
 
-## **Our project currently has 2 main Editions**:<BR>
-
-> | 1. **<KBD>OSS STANDARD </KBD>** :heavy_check_mark: > ```Ready Player 1``` |
+## **openEBS has 2 Editions**:<BR>
+> | 1. **<KBD> STANDARD </KBD>** :heavy_check_mark: > ```Ready Player 1``` |
 > | - |
 
-> | 2. **<KBD>Legacy</KBD>** :warning: ```Game Over``` |
+> | 2. **<KBD> LEGACY </KBD>** :warning: ```Game Over``` |
 > | - |
 
 ---
 <BR>
 
 > [!IMPORTANT]
-> ## ```OSS : Standard Edition```
-> There are 2 Types of Storage Services provided within the **OSS STANDARD**. ```Replicated PV``` and ```Local PV```.
+> ## ```Standard Edition```
+> Within  **STANDARD**, you have a choice of 2 Types of K8s Storage Services. ```Replicated PV``` and ```Local PV```.
 
 | Type | Storage Engine   | Type of data services                                                     | Status                      |  In OSS ver  |
 | :---: | :---             | :---                                                                      | :---                       |  :---:  |   
@@ -82,6 +77,7 @@ STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra
 
 > [!WARNING]
 > ### ```LEGACY Edition```
+> Legacy has been <KBD> archived </KBD> and migrated out of the main openEBS parent repo.
 ```Erlang
 LEGACY consists of Data-Engines that we experimented with early on. These Data-Engines have a number of open-source
 technologies embedded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped
@@ -92,7 +88,7 @@ what areas of K8s we could optimize; and how we can provide the best value into 
 
 <BR>
 
-There are multiple Data-Engines within LEGACY:<BR>
+There are multiple Storage Engines within LEGACY:<BR>
 | ID  | Data-Engines      | Embedded tech stack   | Status        | Action date  |
 |:---:|:---               | :----                |:---           | :---         |
 |  |  | &nbsp;  |  |  |
@@ -117,3 +113,6 @@ Please review this roadmap and feel free to pass back any feedback on it, as wel
 OpenEBS is the most successful Stateful Persistent Container Native Storage platform in the CNCF landscape. It has always held the #1 position and continues to as of today.
 
 [![XXXXXXXX](https://github.com/openebs/website/blob/main/website/public/images/png/github_star-history-2024_Feb_1.png)](https://www.openebs.io/)
+
+> [!IMPORTANT]
+> Our orignal founding team guides the project as Maintainers. Major sponsorship is provided by [DataCore](https://datacore.com), who donates a large team of dedicated Product Dev/Engineers, Product Mgmt and operational rescources. OpenEBS has 100's of amazing contributors and storage engineers who provide ideas, feedback, and high-quality code to the project. - Everyone is welcome.
