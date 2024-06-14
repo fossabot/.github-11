@@ -1,8 +1,11 @@
 # Welcome to [OpenEBS](https://github.com/openebs/openebs)
 <!--- [![OpenEBS Social Banner](https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_main_banner_HERO_1.png)](https://www.openebs.io/) -->
-[![OpenEBS Social Banner](https://github.com/openebs/community/blob/develop/images/forest-road-game-pixel-art_HERO_banner.png)](https://www.openebs.io/)
+[![OpenEBS Social Banner](https://github.com/openEBS/community/blob/develop/images/forest-road-game-pixel-art_HERO_banner.png)](https://www.openebs.io/)
 
-## [openebs.io](https://www.openebs.io/)
+| Quick links  |  [ ```CNCF openebs website ``` ](https://www.openebs.io/)  |  [ ```CNCF Product docs ``` ](https://www.openebs.io/docs)  | [  ``` Main Parent repo ```](./openebs) |  [  ```Community Cafe```](./community) | 
+| :----        |              :---:             |            :---:             |            :---:             |            :---:             |
+
+---
 OpenEBS is a Stateful Persistent block-mode Data Storage platform with an native vSAN fabric; for Kubernetes. We are CNCF member project. We are the largest global community of K8s storage users.<BR>
 <BR>
 Our project team was an early pioneering inventor of K8s **Container Native Storage** services (we invented the term). We conceived the vision of a Stateful Persistent data platform for K8s that is tightly integrated and natively embeded into the core of K8s.<BR>
