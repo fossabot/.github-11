@@ -30,19 +30,8 @@ We built an innovative High-performance Enterprise grade Block-mode Hyper-conver
 
 [![Project Structure](https://github.com/openebs/community/blob/develop/images/island-beach_pixel-art_STORAGE-ENGINES_banner.png)](https://github.com/openebs/community/)
 
-## **openEBS has 2 Editions**:<BR>
-> | 1. **<KBD> STANDARD </KBD>** :heavy_check_mark: > ```Ready Player 1``` |
-> | - |
-
-> | 2. **<KBD> LEGACY </KBD>** :warning: ```Game Over``` |
-> | - |
-
----
-<BR>
-
 > [!IMPORTANT]
-> ## ```Standard Edition```
-> Within  **STANDARD**, you have a choice of 2 Types of K8s Storage Services. ```Replicated PV``` and ```Local PV```.
+> The openEBS platform, provides 2 types of K8s Storage Services. ```Replicated PV``` and ```Local PV```.
 
 | Type | Storage Engine   | Type of data services                                                     | Status                      |  In OSS ver  |
 | :---: | :---             | :---                                                                      | :---                       |  :---:  |   
@@ -56,11 +45,10 @@ We built an innovative High-performance Enterprise grade Block-mode Hyper-conver
 | [<img src="https://github.com/openebs/community/blob/develop/images/local-pv_rawfile_183x163_t.png" alt="Local PV Rawfile" align="center" width="83px"/>](https://github.com/openebs/rawfile-localpv) |  [Local PV Rawfile](https://github.com/openebs/rawfile-localpv)    | for integration with Loop mounted Raw device-file filesystem | Stable, deployable in PROD, undergoing evaluation & integration <BR>```release: v0.70```   | v4.0.1   |
 <BR>
 
-**STANDARD** (Open Source Standard) is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to facilitate modern K8s datastore architectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
+We are an Ultra modern Data storage platform stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. openEBS is designed to facilitate modern K8s datastore architectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
 <BR>	
 
- 
-STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra modern cutting-edge high performance storage technologies at its core...</summary>
+opeNEBS is optimized for NVMe and SSD Flash storage media, and integrates ultra modern cutting-edge high performance storage technologies at its core...</summary>
 
 >
 > :ballot_box_with_check: &nbsp; It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an open-source NVMe project initiated by INTEL) <BR>
