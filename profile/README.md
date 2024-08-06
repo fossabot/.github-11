@@ -107,8 +107,8 @@ OpenEBS is the most successful Stateful Persistent Container Native Storage plat
 
 > [!IMPORTANT]
 > Our orignal founding team guides the project as Maintainers. Major sponsorship is provided by [DataCore](https://datacore.com), who donates a large team of dedicated Product Dev/Engineers, Product Mgmt and operational rescources. OpenEBS has 100's of amazing contributors and storage engineers who provide ideas, feedback, and high-quality code to the project. - Everyone is welcome.
-
 <BR>
+
 ## Monthly Community Meetings
 The community meetings are usually held monthly on the last thursday of the month at 14:00 UTC. <BR>
 The meeting is currently held on google meet: https://meet.google.com/oaa-fycu-vsq <BR>
