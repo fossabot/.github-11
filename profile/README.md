@@ -48,7 +48,7 @@ We built an innovative High-performance Enterprise grade Block-mode Hyper-conver
 We are an Ultra modern Data storage platform stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. openEBS is designed to facilitate modern K8s datastore architectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
 <BR>	
 
-opeNEBS is optimized for NVMe and SSD Flash storage media, and integrates ultra modern cutting-edge high performance storage technologies at its core...</summary>
+OpenEBS is optimized for NVMe and SSD Flash storage media, and integrates ultra modern cutting-edge high performance storage technologies at its core.</summary>
 
 >
 > :ballot_box_with_check: &nbsp; It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an open-source NVMe project initiated by INTEL) <BR>
@@ -107,3 +107,12 @@ OpenEBS is the most successful Stateful Persistent Container Native Storage plat
 
 > [!IMPORTANT]
 > Our orignal founding team guides the project as Maintainers. Major sponsorship is provided by [DataCore](https://datacore.com), who donates a large team of dedicated Product Dev/Engineers, Product Mgmt and operational rescources. OpenEBS has 100's of amazing contributors and storage engineers who provide ideas, feedback, and high-quality code to the project. - Everyone is welcome.
+
+<BR>
+
+## Monthly Community Meetings
+The community meetings are usually held monthly on the last thursday of the month at 14:00 UTC. <BR>
+The meeting is currently held on google meet: https://meet.google.com/oaa-fycu-vsq <BR>
+Please check the invite for up-to-date information.
+
+<BR>
