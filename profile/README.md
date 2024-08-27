@@ -110,5 +110,5 @@ OpenEBS is the most successful Stateful Persistent Container Native Storage plat
 
 ## Monthly Community Meetings
 The community meetings are usually held monthly on the last thursday of the month at 14:00 UTC. <BR>
-The meeting is currently held on google meet: https://meet.google.com/oaa-fycu-vsq <BR>
-Please check https://calendar.app.google/TBQthr3oW42uyJqz5 for the upcoming schedule.
+The meeting is currently held on Zoom: https://us05web.zoom.us/j/87535654586?pwd=CigbXigJPn38USc6Vuzt7qSVFoO79X.1 <BR>
+Upcoming meeting: 29 Aug 2024 at 14:00 UTC
