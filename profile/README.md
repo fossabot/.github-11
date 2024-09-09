@@ -2,7 +2,7 @@
 <!--- [![OpenEBS Social Banner](https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_main_banner_HERO_1.png)](https://www.openebs.io/) -->
 [![OpenEBS Social Banner](https://github.com/openEBS/community/blob/develop/images/forest-road-game-pixel-art_HERO_banner.png)](https://www.openebs.io/)
 
-| Quick links  |  [```CNCF openebs website ```](https://www.openebs.io/)  |  [``` CNCF Product docs ```](https://www.openebs.io/docs)  | [``` Main Parent repo ```](https://github.com/openebs/openebs) |  [``` Community Cafe ```](https://github.com/openebs/community?tab=readme-ov-file#community-repo-cafe) |  [``` Community Meeting ```](https://github.com/openebs#monthly-community-meetings) |
+| Quick links  |  [```CNCF openebs website ```](https://www.openebs.io/)  |  [``` CNCF Product docs ```](https://www.openebs.io/docs)  | [``` Main Parent repo ```](https://github.com/openebs/openebs) |  [``` Community Cafe ```](https://github.com/openebs/community?tab=readme-ov-file#community-repo-cafe) |  [``` Community Meeting ```](https://github.com/openebs#monthly-community-meeting) |
 | :---:        |              :---:             |            :---:             |            :---:             |            :---:             | :---:        |
 
 ---
