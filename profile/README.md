@@ -2,7 +2,7 @@
 <!--- [![OpenEBS Social Banner](https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_main_banner_HERO_1.png)](https://www.openebs.io/) -->
 [![OpenEBS Social Banner](https://github.com/openEBS/community/blob/develop/images/forest-road-game-pixel-art_HERO_banner.png)](https://www.openebs.io/)
 
-| Quick links  |  [```CNCF openebs website ```](https://www.openebs.io/)  |  [``` CNCF Product docs ```](https://www.openebs.io/docs)  | [``` Main Parent repo ```](https://github.com/openebs/openebs) |  [``` Community Cafe ```](https://github.com/openebs/community?tab=readme-ov-file#community-repo-cafe) |  [``` Community Meeting ```](https://github.com/openebs#monthly-community-meeting) |
+| Quick links  |  [```CNCF openebs website ```](https://www.openebs.io/)  |  [``` CNCF Product docs ```](https://www.openebs.io/docs)  | [``` Main Parent repo ```](https://github.com/openebs/openebs) |  [``` Community Cafe ```](https://github.com/openebs/community?tab=readme-ov-file#community-repo-cafe) |  [``` Community Meeting ```](https://github.com/openebs#monthly-community-meetings) |
 | :---:        |              :---:             |            :---:             |            :---:             |            :---:             | :---:        |
 
 ---
@@ -118,14 +118,15 @@ OpenEBS is the most successful Stateful Persistent Container Native Storage plat
 ## Community Resources
 We centralize all our community documentation in the [Community](https://github.com/openebs/community) repo. All sub-projects within the organization follow the same umbrella policies, except where stated in the sub-project readme.
 
-## Monthly community meeting
-OpenEBS holds a monthly community meeting via Zoom on the last Thursday of the month, at 7 am Pacific time.
+## Monthly Community Meetings
+OpenEBS holds a monthly community meeting via Zoom on the last Thursday of the month, at 14:00 UTC.
 <br>
 The next meeting is on: `Thursday 26 September, at 14:00 UTC`
 <br>
 Meeting Link: https://us05web.zoom.us/j/87535654586?pwd=CigbXigJPn38USc6Vuzt7qSVFoO79X.1
 <br>
-Starting in August 2024, the meetings will be recorded and posted on YouTube.
+Starting in August 2024, the meetings will be recorded and posted on YouTube. [Check here](https://www.youtube.com/@openebscommunity6021)
+<BR>
 
 ## Other Resources
 Maintainers meet weekly and minute their meetings. A public record of the meetings is here.
