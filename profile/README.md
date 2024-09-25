@@ -10,11 +10,11 @@
 
 OpenEBS is an open-source storage service for Kubernetes applications. OpenEBS manages the block storage and file systems based on the block storage for containers running in Kubernetes. Use OpenEBS for creating fast and resilient storage; with options for single-node, and replicated multi-node storage.
 
-OpenEBS is a Stateful Persistent block-mode Data Storage platform with a native vSAN fabric; for Kubernetes. We are a CNCF member project. We are the largest global community of K8s storage users.<BR>
+OpenEBS is a Stateful Persistent block-mode Data Storage platform with a native virtual SAN fabric; for Kubernetes. We are a CNCF member project. We are the largest global community of K8s storage users.<BR>
 <BR>
 Our project team was an early pioneering inventor of K8s **Container Native Storage** services (we invented the term). We conceived the vision of a Stateful Persistent data platform for K8s that is tightly integrated and natively embedded into the core of K8s.<BR>
 <BR>
-We built an innovative High-performance Enterprise grade Block-mode Hyper-converged Storage vSAN Fabric that augments the storage services of K8s with Stateful Persistence, Enterprise Data mgmt, SSD/NVMe optimized I/O services, Replicated Data volumes, Thin Provisioning, Snapshot, Clones; and many other Mission critical data storage services that ```don't come``` in K8s out-of-the-box.<BR>
+We built an innovative High-performance Enterprise grade Block-mode Hyper-converged Storage virtual SAN Fabric that augments the storage services of K8s with Stateful Persistence, Enterprise Data mgmt, SSD/NVMe optimized I/O services, Replicated Data volumes, Thin Provisioning, Snapshot, Clones; and many other Mission critical data storage services that ```don't come``` in K8s out-of-the-box.<BR>
 <BR>
 
 > **OpenEBS is very popular :** <BR>
@@ -38,7 +38,7 @@ We built an innovative High-performance Enterprise grade Block-mode Hyper-conver
 OpenEBS provides enterprise-grade data management for Kubernetes clusters, with five different storage engines (four single-node and one replicated) that meet a range of use cases for Kubernetes users. The five engines are summarized in the table below:
 <BR>
 > [!IMPORTANT]
-> The openEBS platform, provides 2 types of K8s Storage Services. ```Replicated PV``` and ```Local PV```.
+> The OpenEBS platform, provides 2 types of K8s Storage Services. ```Replicated PV``` and ```Local PV```.
 <BR>
 
 | Engine | [Local PV HostPath](https://github.com/openebs/dynamic-localpv-provisioner) | [Local PV ZFS](https://github.com/openebs/zfs-localpv) | [Local PV LVM](https://github.com/openebs/lvm-localpv)  | [Local PV Rawfile](https://github.com/openebs/rawfile-localpv) | [Replicated PV Mayastor](https://github.com/openebs/mayastor) |
@@ -52,7 +52,7 @@ OpenEBS provides enterprise-grade data management for Kubernetes clusters, with 
 
 <BR>
 
-We are an Ultra modern Data storage platform stack that is strongly aligned with the cutting-edge direction of storage use cases in the K8s industry. openEBS is designed to facilitate modern K8s datastore architectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
+We are an Ultra modern Data storage platform stack that is strongly aligned with the cutting-edge direction of storage use cases in the K8s industry. OpenEBS is designed to facilitate modern K8s datastore architectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
 <BR>	
 
 OpenEBS is optimized for NVMe and SSD Flash storage media and integrates ultra-modern cutting-edge high-performance storage technologies at its core.</summary>
@@ -75,7 +75,7 @@ OpenEBS is optimized for NVMe and SSD Flash storage media and integrates ultra-m
 
 > [!WARNING]
 > ### ```LEGACY Edition```
-> Legacy has been <KBD> archived </KBD> and migrated out of the main openEBS parent repo.
+> Legacy has been <KBD> archived </KBD> and migrated out of the main OpenEBS parent repo.
 ```Erlang
 LEGACY consists of Data-Engines that we experimented with early on. These Data-Engines have a number of open-source
 technologies embedded inside them, and are a great intro into the world of simple K8s storage services. LEGACY helped
@@ -133,5 +133,5 @@ Maintainers meet weekly and minute their meetings. A public record of the meetin
 See [Vision](https://github.com/openebs/community/blob/develop/VISION.md) for more detail on what we do, [Governance](https://github.com/openebs/community/blob/develop/GOVERNANCE.md) for how we do it, and [Contributing](https://github.com/openebs/community/blob/develop/CONTRIBUTING.md) for how to get involved
 
 ## New Contributors and Maintainers
-We are actively looking for new contributors and maintainers. Want to get involved, but not sure how? Please email the OpenEBS maintainers at openebs.team@gmail.com
+We are actively looking for new contributors and maintainers. Want to get involved, but not sure how? Please email the  maintainers at openebs.team@gmail.com
 
